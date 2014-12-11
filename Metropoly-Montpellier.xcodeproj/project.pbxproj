@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D921512A1A249C10001ADBF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92151291A249C10001ADBF0 /* AppDelegate.swift */; };
+		D921512C1A249C10001ADBF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D921512B1A249C10001ADBF0 /* ViewController.swift */; };
+		D921512F1A249C10001ADBF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D921512D1A249C10001ADBF0 /* Main.storyboard */; };
+		D92151311A249C10001ADBF0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92151301A249C10001ADBF0 /* Images.xcassets */; };
+		D92151341A249C10001ADBF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D92151321A249C10001ADBF0 /* LaunchScreen.xib */; };
+		D92151401A249C10001ADBF0 /* Metropoly_MontpellierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D921513F1A249C10001ADBF0 /* Metropoly_MontpellierTests.swift */; };
+		D921514A1A249D1E001ADBF0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92151491A249D1E001ADBF0 /* MapKit.framework */; };
+		D9FBB5791A38FC7600AF03A5 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = D9FBB5781A38FC7600AF03A5 /* Contents.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D921513A1A249C10001ADBF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D921511C1A249C10001ADBF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D92151231A249C10001ADBF0;
+			remoteInfo = "Metropoly-Montpellier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D92151241A249C10001ADBF0 /* Metropoly-Montpellier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metropoly-Montpellier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92151281A249C10001ADBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92151291A249C10001ADBF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D921512B1A249C10001ADBF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D921512E1A249C10001ADBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D92151301A249C10001ADBF0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D92151331A249C10001ADBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D92151391A249C10001ADBF0 /* Metropoly-MontpellierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metropoly-MontpellierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D921513E1A249C10001ADBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D921513F1A249C10001ADBF0 /* Metropoly_MontpellierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metropoly_MontpellierTests.swift; sourceTree = "<group>"; };
+		D92151491A249D1E001ADBF0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D9FBB5781A38FC7600AF03A5 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D92151211A249C10001ADBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D921514A1A249D1E001ADBF0 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92151361A249C10001ADBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D921511B1A249C10001ADBF0 = {
+			isa = PBXGroup;
+			children = (
+				D92151491A249D1E001ADBF0 /* MapKit.framework */,
+				D92151261A249C10001ADBF0 /* Metropoly-Montpellier */,
+				D921513C1A249C10001ADBF0 /* Metropoly-MontpellierTests */,
+				D92151251A249C10001ADBF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D92151251A249C10001ADBF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D92151241A249C10001ADBF0 /* Metropoly-Montpellier.app */,
+				D92151391A249C10001ADBF0 /* Metropoly-MontpellierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D92151261A249C10001ADBF0 /* Metropoly-Montpellier */ = {
+			isa = PBXGroup;
+			children = (
+				D92151291A249C10001ADBF0 /* AppDelegate.swift */,
+				D921512B1A249C10001ADBF0 /* ViewController.swift */,
+				D921512D1A249C10001ADBF0 /* Main.storyboard */,
+				D92151301A249C10001ADBF0 /* Images.xcassets */,
+				D9FBB5771A38FC7600AF03A5 /* AppIcon.appiconset */,
+				D92151321A249C10001ADBF0 /* LaunchScreen.xib */,
+				D92151271A249C10001ADBF0 /* Supporting Files */,
+			);
+			path = "Metropoly-Montpellier";
+			sourceTree = "<group>";
+		};
+		D92151271A249C10001ADBF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D92151281A249C10001ADBF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D921513C1A249C10001ADBF0 /* Metropoly-MontpellierTests */ = {
+			isa = PBXGroup;
+			children = (
+				D921513F1A249C10001ADBF0 /* Metropoly_MontpellierTests.swift */,
+				D921513D1A249C10001ADBF0 /* Supporting Files */,
+			);
+			path = "Metropoly-MontpellierTests";
+			sourceTree = "<group>";
+		};
+		D921513D1A249C10001ADBF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D921513E1A249C10001ADBF0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9FBB5771A38FC7600AF03A5 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				D9FBB5781A38FC7600AF03A5 /* Contents.json */,
+			);
+			name = AppIcon.appiconset;
+			path = Images.xcassets/AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D92151231A249C10001ADBF0 /* Metropoly-Montpellier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92151431A249C10001ADBF0 /* Build configuration list for PBXNativeTarget "Metropoly-Montpellier" */;
+			buildPhases = (
+				D92151201A249C10001ADBF0 /* Sources */,
+				D92151211A249C10001ADBF0 /* Frameworks */,
+				D92151221A249C10001ADBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metropoly-Montpellier";
+			productName = "Metropoly-Montpellier";
+			productReference = D92151241A249C10001ADBF0 /* Metropoly-Montpellier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D92151381A249C10001ADBF0 /* Metropoly-MontpellierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92151461A249C10001ADBF0 /* Build configuration list for PBXNativeTarget "Metropoly-MontpellierTests" */;
+			buildPhases = (
+				D92151351A249C10001ADBF0 /* Sources */,
+				D92151361A249C10001ADBF0 /* Frameworks */,
+				D92151371A249C10001ADBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D921513B1A249C10001ADBF0 /* PBXTargetDependency */,
+			);
+			name = "Metropoly-MontpellierTests";
+			productName = "Metropoly-MontpellierTests";
+			productReference = D92151391A249C10001ADBF0 /* Metropoly-MontpellierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D921511C1A249C10001ADBF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = cymodean.io;
+				TargetAttributes = {
+					D92151231A249C10001ADBF0 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D92151381A249C10001ADBF0 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D92151231A249C10001ADBF0;
+					};
+				};
+			};
+			buildConfigurationList = D921511F1A249C10001ADBF0 /* Build configuration list for PBXProject "Metropoly-Montpellier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D921511B1A249C10001ADBF0;
+			productRefGroup = D92151251A249C10001ADBF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D92151231A249C10001ADBF0 /* Metropoly-Montpellier */,
+				D92151381A249C10001ADBF0 /* Metropoly-MontpellierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D92151221A249C10001ADBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D921512F1A249C10001ADBF0 /* Main.storyboard in Resources */,
+				D92151341A249C10001ADBF0 /* LaunchScreen.xib in Resources */,
+				D92151311A249C10001ADBF0 /* Images.xcassets in Resources */,
+				D9FBB5791A38FC7600AF03A5 /* Contents.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92151371A249C10001ADBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D92151201A249C10001ADBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D921512C1A249C10001ADBF0 /* ViewController.swift in Sources */,
+				D921512A1A249C10001ADBF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D92151351A249C10001ADBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92151401A249C10001ADBF0 /* Metropoly_MontpellierTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D921513B1A249C10001ADBF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D92151231A249C10001ADBF0 /* Metropoly-Montpellier */;
+			targetProxy = D921513A1A249C10001ADBF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D921512D1A249C10001ADBF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D921512E1A249C10001ADBF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D92151321A249C10001ADBF0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92151331A249C10001ADBF0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D92151411A249C10001ADBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D92151421A249C10001ADBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D92151441A249C10001ADBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Metropoly-Montpellier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D92151451A249C10001ADBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Metropoly-Montpellier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D92151471A249C10001ADBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Metropoly-MontpellierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metropoly-Montpellier.app/Metropoly-Montpellier";
+			};
+			name = Debug;
+		};
+		D92151481A249C10001ADBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Metropoly-MontpellierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Metropoly-Montpellier.app/Metropoly-Montpellier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D921511F1A249C10001ADBF0 /* Build configuration list for PBXProject "Metropoly-Montpellier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92151411A249C10001ADBF0 /* Debug */,
+				D92151421A249C10001ADBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92151431A249C10001ADBF0 /* Build configuration list for PBXNativeTarget "Metropoly-Montpellier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92151441A249C10001ADBF0 /* Debug */,
+				D92151451A249C10001ADBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92151461A249C10001ADBF0 /* Build configuration list for PBXNativeTarget "Metropoly-MontpellierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92151471A249C10001ADBF0 /* Debug */,
+				D92151481A249C10001ADBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D921511C1A249C10001ADBF0 /* Project object */;
+}
