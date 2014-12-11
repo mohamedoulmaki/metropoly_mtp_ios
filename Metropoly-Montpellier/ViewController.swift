@@ -37,7 +37,11 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         mapview.showsBuildings = false;
         self.view.addSubview(mapview)
         
+        var query = PFUser.query()
+        query.whereKey("username", equalTo:"momo")
+        var momo = query.findObjects()
         
+        NSLog("%@", momo)
     }
     
 
