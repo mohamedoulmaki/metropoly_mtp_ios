@@ -14,6 +14,11 @@
 		D92151341A249C10001ADBF0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D92151321A249C10001ADBF0 /* LaunchScreen.xib */; };
 		D92151401A249C10001ADBF0 /* Metropoly_MontpellierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D921513F1A249C10001ADBF0 /* Metropoly_MontpellierTests.swift */; };
 		D921514A1A249D1E001ADBF0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92151491A249D1E001ADBF0 /* MapKit.framework */; };
+		D94369681A39F5DB00E234AC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94369631A39F5DB00E234AC /* Bolts.framework */; };
+		D94369691A39F5DB00E234AC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94369641A39F5DB00E234AC /* Parse.framework */; };
+		D943696A1A39F5DB00E234AC /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94369651A39F5DB00E234AC /* ParseCrashReporting.framework */; };
+		D943696B1A39F5DB00E234AC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94369661A39F5DB00E234AC /* ParseFacebookUtils.framework */; };
+		D943696C1A39F5DB00E234AC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D94369671A39F5DB00E234AC /* ParseUI.framework */; };
 		D9FBB5791A38FC7600AF03A5 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = D9FBB5781A38FC7600AF03A5 /* Contents.json */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +44,12 @@
 		D921513E1A249C10001ADBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D921513F1A249C10001ADBF0 /* Metropoly_MontpellierTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metropoly_MontpellierTests.swift; sourceTree = "<group>"; };
 		D92151491A249D1E001ADBF0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D943695F1A39F5AE00E234AC /* Metropoly-Montpellier-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Metropoly-Montpellier-Bridging-Header.h"; sourceTree = "<group>"; };
+		D94369631A39F5DB00E234AC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		D94369641A39F5DB00E234AC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		D94369651A39F5DB00E234AC /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		D94369661A39F5DB00E234AC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		D94369671A39F5DB00E234AC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		D9FBB5781A38FC7600AF03A5 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,7 +58,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D943696C1A39F5DB00E234AC /* ParseUI.framework in Frameworks */,
 				D921514A1A249D1E001ADBF0 /* MapKit.framework in Frameworks */,
+				D94369691A39F5DB00E234AC /* Parse.framework in Frameworks */,
+				D94369681A39F5DB00E234AC /* Bolts.framework in Frameworks */,
+				D943696B1A39F5DB00E234AC /* ParseFacebookUtils.framework in Frameworks */,
+				D943696A1A39F5DB00E234AC /* ParseCrashReporting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,10 +80,12 @@
 		D921511B1A249C10001ADBF0 = {
 			isa = PBXGroup;
 			children = (
+				D94369621A39F5DB00E234AC /* parse-lib */,
 				D92151491A249D1E001ADBF0 /* MapKit.framework */,
 				D92151261A249C10001ADBF0 /* Metropoly-Montpellier */,
 				D921513C1A249C10001ADBF0 /* Metropoly-MontpellierTests */,
 				D92151251A249C10001ADBF0 /* Products */,
+				D943695F1A39F5AE00E234AC /* Metropoly-Montpellier-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +135,19 @@
 				D921513E1A249C10001ADBF0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D94369621A39F5DB00E234AC /* parse-lib */ = {
+			isa = PBXGroup;
+			children = (
+				D94369631A39F5DB00E234AC /* Bolts.framework */,
+				D94369641A39F5DB00E234AC /* Parse.framework */,
+				D94369651A39F5DB00E234AC /* ParseCrashReporting.framework */,
+				D94369661A39F5DB00E234AC /* ParseFacebookUtils.framework */,
+				D94369671A39F5DB00E234AC /* ParseUI.framework */,
+			);
+			name = "parse-lib";
+			path = "Metropoly-Montpellier/parse-lib";
 			sourceTree = "<group>";
 		};
 		D9FBB5771A38FC7600AF03A5 /* AppIcon.appiconset */ = {
@@ -355,9 +386,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Metropoly-Montpellier/parse-lib",
+				);
 				INFOPLIST_FILE = "Metropoly-Montpellier/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Metropoly-Montpellier-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -365,9 +403,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Metropoly-Montpellier/parse-lib",
+				);
 				INFOPLIST_FILE = "Metropoly-Montpellier/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Metropoly-Montpellier-Bridging-Header.h";
 			};
 			name = Release;
 		};
