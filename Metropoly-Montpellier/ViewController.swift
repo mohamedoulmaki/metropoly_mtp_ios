@@ -37,6 +37,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         mapview.showsBuildings = false;
         self.view.addSubview(mapview)
         
+        //initialisation de parse
+        Parse.setApplicationId("j7EHBDp2Cz3C95oGRdi5fZ8WpbOCEMc4xD3RabtT", clientKey:"rhDWYZj0anFaM0ai0LqRNt6ZDtdtNOtjnPvlsRTA")
+        //requête de récupération
         var query = PFUser.query()
         query.whereKey("username", equalTo:"momo")
         var momo = query.findObjects()
