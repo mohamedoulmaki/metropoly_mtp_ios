@@ -6,21 +6,30 @@
 //  Copyright (c) 2014 cymodean.io. All rights reserved.
 //
 
+//générale
 import UIKit
+import CoreLocation
+//carte
 import MapKit
+//G+
+import AddressBook
+import MediaPlayer
+import AssetsLibrary
+import CoreMotion
 
 
-class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
+class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate, GPPSignInDelegate {
     
     var mapview: MKMapView!
     var manager:CLLocationManager!
     var myLocations: [CLLocation] = []
-    
+    //G+
+    var signIn:GPPSignIn?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        manager = CLLocationManager()
+       /* manager = CLLocationManager()
         manager.delegate = self
         manager.desiredAccuracy = kCLLocationAccuracyBest
         manager.requestAlwaysAuthorization()
@@ -45,6 +54,18 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         var momo = query.findObjects()
         
         NSLog("%@", momo)
+        */
+        /* ----------
+            google+
+        ---------- */
+        
+        //configuration google login
+        signIn = GPPSignIn.sharedInstance()
+        signIn?.shouldFetchGooglePlusUser = true
+        signIn?.clientID = "1083840439379-u5c7fjhjnqe67d1sqlb9vl4ep2doa4bu.apps.googleusercontent.com"
+        signIn?.scopes = [kGTLAuthScopePlusLogin]
+        signIn?.delegate = self
+        signIn?.authenticate()
     }
     
 
@@ -60,6 +81,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
             return rfo
         }
         return nil
+    }
+    
+    //Connexion avec G+
+    func finishedWithAuth(auth:GTMOAuth2Authentication?, error:NSError?){
+        print(auth)
+    }
+    func didDisconnectWithError(error: NSError?) {
     }
     
     
